@@ -1,0 +1,68 @@
+body{
+  color: #878787;
+  margin:0;
+}
+
+.main-header{
+  background-color: orange;
+}
+
+h1{
+  font-size: 90px;
+  color:white;
+}
+
+h2{
+  font-size: 53px;
+}
+h3{
+  font-size:20px;
+  color:#48525c;
+}
+
+.contenido-primario{
+  /* border:3px solid red; */
+  text-align: center;
+}
+
+.borde-t{
+  border-top: 2px solid lightgrey;
+}
+
+#footer-principal{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: solid 10px orange;
+}
+
+/*PSEUDO CLASES*/
+
+a:link{
+  color: orange;
+}
+
+a:visited{
+  color: lightblue;
+
+}
+
+a:hover{
+  color: forestgreen;
+}
+
+div:hover{
+  background-color: black;
+}
+
+a:active{
+  color:lightcoral;
+}
+
+a:focus{
+  color:white;
+  background-color: orange;
+}
+
+
+
+
