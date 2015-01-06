@@ -50,9 +50,6 @@ a:hover{
   color: forestgreen;
 }
 
-div:hover{
-  background-color: black;
-}
 
 a:active{
   color:lightcoral;
@@ -63,6 +60,20 @@ a:focus{
   background-color: orange;
 }
 
+.galeria-imagenes ul{
+  list-style-type:none;
+  text-align:center;
+  margin:0;
+  padding: 0;
+}
+.galeria-imagenes ul li{
+  display: inline;
+}
+
+.galeria-imagenes ul li img{
+  height: 100px;
+  width: 50px;
+}
 
 
 
