@@ -20,7 +20,7 @@ body{
 
 .logo, .main-nav a{
   display: inline-block;
-  color: #ffb6f4;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -66,6 +66,10 @@ body{
   background: #E74C3C;
 }
 
+.main-footer {
+  background: #95A5A6;
+}
+
 .main-header, 
 .main-footer, 
 .col {
@@ -73,11 +77,57 @@ body{
   padding: 2.15%;
   border-radius: 5px;
 }
+/*MEDIA QUERIES*/
 
 
+/*De telefonos a Tablets*/
+@media only screen and (min-width: 481px){
+  .col {
+    float: left;
+  }
+  .main {
+    width: 60%;
+  }
+  .secundario {
+    width: 38%; 
+  }
+  .extra{
+    display:none;
+  }
+  .secundario,
+  .extra {
+    margin-left: 1%;
+  }
+}
 
+/*Tablets a Escritorio*/
 
+@media only screen and (min-width: 769px){
+  .logo{
+    float: left;
+  }
 
+  .main-nav{
+    float:right;
+  }
+
+  .main{
+    width:40%
+  }
+  .secundario{
+    width: 58%;
+  }
+
+  .extra{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  .wrap{
+    width: 980px;
+  }
+  }
 
 
 
