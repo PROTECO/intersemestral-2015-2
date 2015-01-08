@@ -156,6 +156,10 @@ nav a.selected, nav a:hover{
   border-radius:100%;
 }
 
+.texto-centrado{
+  text-align: center;
+}
+
 /*PAGINA: CONTACTO*/
 
 .contact-info{
