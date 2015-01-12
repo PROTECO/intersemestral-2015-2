@@ -1,6 +1,3 @@
-intersemestral-2015-2
+Curso HTML/CSS3 Intersemestral-Enero 2015 PROTECO
 =====================
-
-Aqui vamos a subir el codigo de este semestre
-
-saludos desde local
+En este repositorio se subirán los ejericios de clase
