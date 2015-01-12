@@ -1,5 +1,10 @@
 /* Base Styles -------------------- */
 
+*{
+  box-sizing: border-box;
+}
+
+
 body {
   color: #878787;
   margin: 0;
@@ -18,13 +23,29 @@ h2 {
   font-size: 3.3125em; /* 53px/16px  */
   font-weight: normal;
   line-height: 1.1;
+
+  margin: 0 0 .5em; /* 0 0 26px */
 }
 
 h3 {
   font-size: 1.25em; /* 20px/16px  */
   color: #48525c;
   line-height: 1.2;
+  margin-bottom: 1.7em; /* 34px */
 }
+
+img{
+  max-width: 100%;
+  margin-bottom: 20px;
+
+}
+/*li{
+  display: inline-block;
+  padding: 0 12px;
+  border-right: solid 1px;
+  margin: 80px 0;
+}*/
+
 
 /* Pseudo-classes ------------------ */
 
@@ -49,7 +70,12 @@ a:active {
 /* Main Styles --------------------- */
 
 .main-header {
-  background-color: #ffa949;
+  background:#ffa949 url('../img/mountains.jpg') no-repeat center;
+  padding-top: 170px;
+  height:850px;
+  background-size:cover;
+
+
 }
 
 .title {
@@ -68,6 +94,25 @@ a:active {
   text-align: center;
 }
 
+.primary-content{
+  padding-top: 25px;
+  padding-bottom: 95px;
+}
+
+.secondary-content{
+  padding-top: 80px;
+  padding-bottom: 70px;
+  border-bottom:2px solid #dfe2e6;
+}
+
+.callout{
+  font-size: 1.25em;
+  border-bottom: 3px solid;
+  padding: 0 9px 3px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
 .main-footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -82,8 +127,23 @@ a:active {
 
 .primary-content, 
 .secondary-content {
-  width: 60%;
+  width: 860px;
+  margin: auto;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
+
+.wildlife{
+  color: white;
+  background-color: #434a52;
+  padding: 18% 24%;
+  border-top: 10px solid #ffa949;
+  margin: 105px 0 60px;
+}
+
+.arrow{
+  width:50px;
+}
 
 
