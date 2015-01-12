@@ -127,10 +127,13 @@ a:active {
 
 .primary-content, 
 .secondary-content {
-  width: 860px;
+  
   margin: auto;
   padding-left: 50px;
   padding-right: 50px;
+  
+  max-width: 960px;
+  width: 75%;
 }
 
 
