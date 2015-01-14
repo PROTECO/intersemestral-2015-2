@@ -1,0 +1,67 @@
+Video
+.wap IBM y Microsoft
+.ogg Xiph.org 
+
+
+
+Para video, soportado por HTML5
+.mp4 .ogg. webM
+
+Para audio, soportado por HTML5
+.mp4 .mp3 .ogg
+
+
+hive.im
+
+Video & Audio
+kind
+
+caption Para describir lo que sucede dentro del video (Gente Sorda)
+
+chapters Define el titulo de cada capitulo
+
+description Definicion textual del video.(gente ciega)
+
+
+Atributos de Video
+autoplay Reproduccion automatica
+controls Nos da los controles PLAY PAUSE VOLUMEN etc
+
+height y width Controlar el ancho del video
+
+loop Repeticion del video
+
+muted Volumen nulo
+poster Imagen que se mostrara
+src url del video
+
+
+preload
+auto carga automatica
+none no lo va cargando
+metadata va cargando el metadata
+
+
+
+Atributos iframe
+sandbox Evita ejecutar los scripts
+scrolling (yes no auto) uso del scroll dentro del iframe
+src ubicacion de la pagina a mostrar
+srcdoc="<h2>Hola Mundo</h2>" Permite mostrar contenido propio (archivo o codigo)
+
+seamless Como si fuera parte de la misma pagina, no es soportado por ningun navegador.
+
+
+Crear mapa en Maps
+
+Buscar la ubicacion, dar click en engrane y seleccionar compartir e incorporar mapa, seleccionar incorporar, copiar iframe y pegar en nuestra pagina.
+
+
+
+
+
+
+
+
+
+

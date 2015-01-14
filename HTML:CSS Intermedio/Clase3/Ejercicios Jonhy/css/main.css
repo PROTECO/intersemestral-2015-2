@@ -1,0 +1,100 @@
+@font-face {
+  
+	font-family: "Anders";
+	src: url('../fonts/Anders.ttf') format('true-type'); 
+}
+
+body{
+    background-image: url("../img/nature.jpg");
+    background-size: cover;
+    background-attachment:fixed;
+    color: white;
+    font-family: "Anders",Verdana;
+}
+nav{
+	font-family: "Anders";
+	position: fixed;
+	width: 100%;
+	background-color: rgba(0,0,0,.3);
+ 
+}
+nav ul{
+	list-style-type: none;
+	margin-left: 2%;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+nav ul li{
+	display: inline-block;
+    margin-right: 4%;
+    padding: 1%;
+}
+
+nav ul li:hover{
+	color: rgb(250,200,20);
+	text-decoration: underline;
+	background-color: rgba(250,200,20,.1);
+}
+
+nav ul li:last-child{
+	margin-left: 25%;
+}
+
+#token{
+	font-family: "Simplifica";
+	color: black;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+#psearch{
+	position: fixed;
+	background-color: rgba(229,229,229,.8);
+	width: 18%;
+	margin-left: 80%;
+	margin-top: 4%;
+
+	/*visibility: hidden;*/
+}
+
+
+.item{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#ldeseos{
+	width: 20%;
+	background-color: rgba(200,10,120,.4);
+	position: absolute;
+	margin-top: 10%;
+	margin-left: 6%;
+	border-radius: 8px;
+}
+
+.title{
+	padding-top: 10px;
+	font-size: 20px;
+}
+
+#ldeseos ul{
+	list-style-type: none;
+	margin-right: 10%;
+}
+
+.plus{
+	margin-right: 15%;
+	margin-bottom: 2%;
+}
+
+
+.container video{
+	margin-top: 200px;
+	margin-left: 100px;
+}
+
+
+
+
+
+
