@@ -1,0 +1,26 @@
+@import url("corto.css") screen and (max-width: 768px) and (min-width: 481px);
+@import url("ancho.css") screen and (max-width: 480px);
+@import url(http://fonts.googleapis.com/css?family=Slabo+27px);
+
+
+body{
+  font-family: 'Lobster', cursive;
+}
+
+p{
+  font-family: 'Slabo 27px';
+}
+
+/*@media screen and (min-width:481px) and (max-width: 1024px) {
+  
+  body{
+    background: #FF6347;
+    color:#fff;
+  }
+
+}
+@media screen and (min-width: 1024px){
+  body{
+    background: black;
+  }
+}*/

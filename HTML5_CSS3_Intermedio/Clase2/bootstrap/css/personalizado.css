@@ -1,0 +1,9 @@
+.well{
+  background-color: black;
+}
+.well p, .well h1, .well h2, .well h3, .well h4{
+  color:white;
+}
+a{
+  color:#ff9d53;
+}

@@ -1,0 +1,286 @@
+/* Base Styles -------------------- */
+@font-face{
+  font-family: 'Abolition Regular';
+
+  src: url('../fonts/abolition-regular-webfont.eot'); /*Embedded Open Type para IE*/
+  src: url('../fonts/abolition-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/abolition-regular-webfont.woff') format('woff'), 
+       url('../fonts/abolition-regular-webfont.ttf') format('truetype'); /* Web Open Font Format para Mozilla y TTF True Type Font Safari, iOS y Android*/
+      
+
+}
+
+
+*{
+  box-sizing: border-box;
+}
+
+
+body {
+  color: #878787;
+  margin: 0;
+  font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1,h2{
+  font-family: 'Abolition Regular', Helvetica, Arial, sans-serif;
+}
+
+h1 {  
+  font-size: 5.625rem; /* 90px/16px  */
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  font-weight: normal;
+  line-height: 1.3;
+  text-shadow: 0 1px 1px rgba(0,0,0, 0.8);
+  -o-text-shadow: 0 1px 1px rgba(0,0,0, 0.8);
+  -webkit-text-shadow: 0 1px 1px rgba(0,0,0, 0.8);
+  -moz-text-shadow: 0 1px 1px rgba(0,0,0, 0.8);
+  -ms-text-shadow: 0 1px 1px rgba(0,0,0, 0.8);
+  /* ejex ejey blur color*/
+  /*Prefijos para los navegadores*/
+}
+
+h2 {
+  font-size: 3.3125em; /* 53px/16px  */
+  font-weight: normal;
+  line-height: 1.1;
+
+  margin: 0 0 .5em; /* 0 0 26px */
+}
+
+h3 {
+  font-size: 1.25em; /* 20px/16px  */
+  color: #48525c;
+  line-height: 1.2;
+  margin-bottom: 1.7em; /* 34px */
+}
+
+img{
+  max-width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+
+}
+
+ul,ol{
+  margin: 30px 0;
+}
+
+li{
+  margin-bottom: 10px;
+}
+
+
+/* Pseudo-classes ------------------ */
+
+a:link {
+  color: rgb(255, 169, 73);
+  text-decoration: none;
+
+}
+
+a:visited {
+  color: lightblue;
+}
+
+a:hover {
+  color: rgba(255, 169, 73, .4);
+}
+
+a:active {
+  color: lightcoral;
+}
+
+/* Main Styles --------------------- */
+
+.main-header {
+  /*background:#ffa949 url('../img/mountains.jpg') no-repeat center;*/
+  padding-top: 170px;
+  height:850px;
+  /*background: linear-gradient(#ffa949, firebrick);*/
+/*  background: linear-gradient(45deg, #ffa949, firebrick);
+*/
+  /*background: radial-gradient(circle at top, #ffa949, firebrick);*/
+  /*background: radial-gradient(circle , #ffa949 0%, firebrick 60%, dodgerblue 100%);*/
+  /*background-image: radial-gradient(circle at top right, #ffa949, firebrick);*/
+  
+  background: linear-gradient(to bottom,#ffa949, transparent 90%),
+              linear-gradient(to top, #fff, transparent),
+              #ffa949 url('../img/mountains.jpg') no-repeat center;
+  background-size: cover;
+
+
+
+}
+
+.title {
+  color: white;
+  font-size: 1.625rem; /* 26px/16px */
+  
+  letter-spacing: .065em;
+  font-weight: 200;
+  border-bottom: 2px solid;
+  padding-bottom: 10px;
+}
+
+.intro {
+  font-size: 1.25em; /* 20px/16px */
+  line-height: 1.6;  
+}
+
+.primary-content,
+.main-header,
+.main-footer {
+  text-align: center;
+}
+
+.primary-content{
+  padding-top: 25px;
+  padding-bottom: 95px;
+}
+
+.secondary-content{
+  padding-top: 80px;
+  padding-bottom: 70px;
+  border-bottom:2px solid #dfe2e6;
+}
+
+.callout{
+  font-size: 1.25em;
+  border-bottom: 3px solid;
+  padding: 0 9px 3px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.main-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: 10px solid #ffa949;
+}
+
+.t-border {
+  border-top: 2px solid lightgrey;
+}
+
+/* Layout Styles ------------------ */
+
+.primary-content, 
+.secondary-content {
+  
+  margin: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+
+  max-width: 960px;
+  width: 75%;
+}
+
+
+.wildlife{
+  color: white;
+  /*background-color: #434a52;*/
+  padding: 18% 24%;
+  border-top: 10px solid #ffa949;
+  margin: 105px 0 60px;
+  background: #434a52 url('../img/bear.jpg') no-repeat center;
+  background-size: cover;
+  box-shadow: inset 0 0 50px 10px rgba(0,0,0,.8);
+  border-radius:10px;
+
+}
+
+.arrow{
+  width:50px;
+}
+
+/* Floated Columns ------------------ */
+
+.resorts, .tips{
+  width: 46.5%;
+}
+.tips{
+  float:right;
+}
+.resorts{
+  float: left;
+}
+
+/* Float Clearfix  ------------------ */
+.group:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Media Queries*/
+
+
+
+@media (max-width: 1024px ){
+  .primary-content,
+  .secondary-content{
+    width:90%;
+  }
+
+  .wildlife{
+    padding: 10% 12%;
+    margin: 50px 0 20px;
+  }
+
+}
+
+@media (max-width: 768px){
+  .primary-content,
+  .secondary-content{
+    width:100%;
+    padding: 20px;
+    border-top: none;
+  }
+
+
+
+  .main-header{
+    max-height: 380px;
+    padding: 50px 25px 0;
+  }
+  .title{
+    font-size: 1.3rem;
+    border: none;
+  }
+  h1{
+    font-size: 5rem;
+    line-height: 1.1;
+  }
+  .arrow{
+    display: none;
+  }
+  .intro{
+    font-size: 1rem;
+  }
+  .resorts,.tips{
+    float: none; /*Se ponen uno abajo del otro, le quitamos el float*/
+    width: 100%;
+  }
+  .main-footer{
+    padding: 20px 0;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
