@@ -53,20 +53,62 @@ function validar(){
   numero = document.getElementById('numero').value;
   expresion = new RegExp("[A-Z]");
 
-
-
   if( expresion.test(numero) ){
     texto = "Correcto";
   }
   else{
     texto = "Incorrecto";
   }
-
-
-
   document.getElementById('mensaje').innerHTML = texto;
 
 }
+
+
+function cambiarTam(){
+  var sel = document.getElementById("selector");
+  var tam;
+ 
+  if (sel.size > 1){
+    sel.size = 1;
+  }else{
+    sel.size = 5;
+  }
+}
+
+function bloqDesbloq(){
+  var ok = document.getElementById("ok");
+  var texto = document.getElementById("btn")
+
+
+  if (ok.disabled == true){
+    ok.disabled =false;
+    texto.innerHTML = "Bloquear";
+
+  }else{
+    ok.disabled = true;
+    texto.innerHTML = "Desbloquear";
+  }
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
