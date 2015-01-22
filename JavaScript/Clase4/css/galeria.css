@@ -1,0 +1,64 @@
+body{
+  font-family: sans-serif;
+  background: #384047;
+}
+
+h1{
+  color:#fff;
+  text-align: center;
+}
+
+ul{
+  display: block;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 780px;
+  text-align: center;
+}
+
+ul li{
+  display: inline-block;
+  padding: 8px;
+  background: white;
+  margin: 10px;
+}
+
+ul li img{
+  display: block;
+}
+a{
+  text-decoration: none;
+}
+
+/*cuadro grandote gris transparente se llama overlay*/
+#overlay{
+  background:rgba(0,0,0,0.7);
+  width:100%;
+  height:100%;
+  position: absolute;
+  top:0;
+  left:0;
+  text-align: center;
+  display: none;
+}
+
+#overlay img{
+  margin-top:10%;
+}
+
+#overlay p{
+  color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
