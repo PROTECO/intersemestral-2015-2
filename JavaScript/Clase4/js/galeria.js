@@ -12,25 +12,23 @@ function main(){
   $("body").append($overlay);
 
   $("#imageGallery a").click(function(event){
-  event.preventDefault();
+    event.preventDefault();
 
-  var imageLocation = $(this).attr("href");
-  $image.attr("src", imageLocation);
-  $overlay.show();
-  $( "#overlay" ).toggle( "bounce", { times: 3 }, "slow" );;
-
-
-
-  
-
-});
-
-
+    var imageLocation = $(this).attr("href");
+    $image.attr("src", imageLocation);
+    $overlay.show();
+  });
 
 
   $overlay.click(function(){
-
     $overlay.hide("slow");
+  });
+
+  $("#imageGallery a").mouseover(function(){
+    $( this ).animate({
+        opacity: 1,
+        height: "toggle"
+      }, 5000);
   });
 
 
